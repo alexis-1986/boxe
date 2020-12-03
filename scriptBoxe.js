@@ -1,5 +1,4 @@
-
-
+// index.js
 (function(){
 // **************************************************
 // ******* Begin global variables declaration *******
