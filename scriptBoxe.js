@@ -1,4 +1,4 @@
-// index.js
+
 (function(){
 // **************************************************
 // ******* Begin global variables declaration *******
@@ -204,16 +204,7 @@ function editTableCell()
     console.log("edit");
     if (seqInProgress)
         return;
-    /* var curRow = this.parentNode;
-    var prevRow = document.querySelector("tr[data-row-state]");
-    // if (prevRow === curRow)
-    // return;
-    if (prevRow)
-    {
-    prevRow.removeAttribute("data-row-state");
-    }
-
-    curRow.setAttribute("data-row-state", "selected");*/
+        
     if (this.getAttribute("data-cell-state"))
         return;
     
