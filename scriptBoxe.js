@@ -156,7 +156,7 @@ function addEventListenerOnCells(cells, action, eventName)
 {
     if (!cells)
         return;
-    cells.forEach(c => {/*c.onclick = action;*/ c.addEventListener(eventName, action);});
+    cells.forEach(c => {c.addEventListener(eventName, action);});
 }
 
 function initTable(tableId)
